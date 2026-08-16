@@ -1,0 +1,18 @@
+# arithmetic: add, subtract, multiply, divide, and when...otherwise
+create a variable called total as an integer with a value of 100
+create a variable called one as an integer with a value of 1
+create a variable called ten as an integer with a value of 10
+create a variable called result as an integer with a value of 0
+
+add the variable one to the variable total
+write out the variable total
+subtract the variable ten from the variable total
+write out the variable total
+multiply the variable ten by the variable total
+write out the variable total
+divide the variable ten by the variable total
+write out the variable total
+
+when the variable total is equal to 91 write out the string "odd but correct"
+when the variable total is equal to 999 write out the string "wrong" otherwise write out the string "otherwise fires"
+when the variable total is greater than 90 write out the string "still big" otherwise write out the string "not big"

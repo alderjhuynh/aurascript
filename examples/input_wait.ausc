@@ -1,0 +1,17 @@
+# reads a line of input and waits a variable amount of time
+create a variable called name as a string
+create a variable called delay as a double with a value of 0.5
+
+write out the string "What is your name?"
+read the input into the variable called name.
+write out the string "Hello"
+write out the variable name
+
+wait for 1 second.
+write out the string "waited one second"
+
+wait for delay seconds.
+write out the string "waited half a second"
+
+wait for 250 milliseconds.
+write out the string "waited 250 milliseconds"

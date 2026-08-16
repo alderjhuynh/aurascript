@@ -1,0 +1,70 @@
+#include "token.h"
+
+const char *token_type_name(TokenType type) {
+    switch (type) {
+        case TOK_IDENT: return "IDENT";
+        case TOK_NUMBER: return "NUMBER";
+        case TOK_STRING: return "STRING";
+        case TOK_CHAR_LIT: return "CHAR_LIT";
+        case TOK_DOT: return "'.'";
+        case TOK_COLON: return "':'";
+        case TOK_CREATE: return "'create'";
+        case TOK_A: return "'a'";
+        case TOK_AN: return "'an'";
+        case TOK_VARIABLE: return "'variable'";
+        case TOK_CALLED: return "'called'";
+        case TOK_AS: return "'as'";
+        case TOK_WITH: return "'with'";
+        case TOK_VALUE: return "'value'";
+        case TOK_OF: return "'of'";
+        case TOK_ASSIGN: return "'assign'";
+        case TOK_THE: return "'the'";
+        case TOK_ADD: return "'add'";
+        case TOK_SUBTRACT: return "'subtract'";
+        case TOK_MULTIPLY: return "'multiply'";
+        case TOK_DIVIDE: return "'divide'";
+        case TOK_MODULO: return "'modulo'";
+        case TOK_TO: return "'to'";
+        case TOK_FROM: return "'from'";
+        case TOK_BY: return "'by'";
+        case TOK_WRITE: return "'write'";
+        case TOK_OUT: return "'out'";
+        case TOK_READ: return "'read'";
+        case TOK_INPUT: return "'input'";
+        case TOK_INTO: return "'into'";
+        case TOK_WAIT: return "'wait'";
+        case TOK_FOR: return "'for'";
+        case TOK_SECONDS: return "'second(s)'";
+        case TOK_MILLISECONDS: return "'millisecond(s)'";
+        case TOK_REPEAT: return "'repeat'";
+        case TOK_WHILE: return "'while'";
+        case TOK_STOP: return "'stop'";
+        case TOK_REPEATING: return "'repeating'";
+        case TOK_WHEN: return "'when'";
+        case TOK_OTHERWISE: return "'otherwise'";
+        case TOK_IS: return "'is'";
+        case TOK_LESS: return "'less'";
+        case TOK_GREATER: return "'greater'";
+        case TOK_EQUAL: return "'equal'";
+        case TOK_THAN: return "'than'";
+        case TOK_AND: return "'and'";
+        case TOK_OR: return "'or'";
+        case TOK_NOT: return "'not'";
+        case TOK_FUNCTION: return "'function'";
+        case TOK_PARAMETER: return "'parameter'";
+        case TOK_CALL: return "'call'";
+        case TOK_RETURN: return "'return'";
+        case TOK_INTEGER: return "'integer'";
+        case TOK_DOUBLE: return "'double'";
+        case TOK_CHAR: return "'char'";
+        case TOK_STRING_TYPE: return "'string'";
+        case TOK_ARRAY: return "'array'";
+        case TOK_SIZE: return "'size'";
+        case TOK_AT: return "'at'";
+        case TOK_INDEX: return "'index'";
+        case TOK_PI: return "'pi'";
+        case TOK_EOF: return "EOF";
+        case TOK_UNKNOWN: return "UNKNOWN";
+    }
+    return "?";
+}

@@ -1,0 +1,14 @@
+# multiple items print on the same line when joined with 'and'
+create a variable called count as an integer with a value of 3
+create a variable called name as a string with a value of "Ada"
+create a variable called grade as a char with a value of 'A'
+create a variable called step as an integer with a value of 1
+
+write out the variable count and the string " apples"
+write out the variable name and the char ' ' and the string "got a " and the variable grade
+write out the string "one" and the string " line" and the string " only"
+
+repeat while the variable count is greater than 0:
+	write out the string "countdown: " and the variable count
+	subtract the variable step from the variable count
+stop repeating.

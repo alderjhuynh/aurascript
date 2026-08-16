@@ -1,0 +1,24 @@
+create a variable called p as a double with a value of 3.14
+create a variable called radius as a double with a value of 2
+create a variable called area as a double
+add the variable radius to the variable area
+create a variable called flag as a char with a value of 'A'
+create a variable called greeting as a string with a value of "hello"
+create a variable called name as a string with a value of "world"
+
+assign the variable called area the value of p
+write out the variable area
+write out the char '\n'
+
+add the variable name to the variable greeting
+write out the variable greeting
+
+when the variable greeting is equal to "helloworld" write out the string "concatenation works"
+when the variable flag is less than 'B' write out the string "flag sorts low"
+when the variable p is greater than 3 write out the string "p is big"
+
+assign the variable called greeting the value of 42
+write out the variable greeting
+create a variable called code as an integer with a value of 66
+assign the variable called flag the value of code
+write out the variable flag

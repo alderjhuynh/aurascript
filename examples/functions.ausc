@@ -1,0 +1,33 @@
+# functions: define, call, and return from named functions
+# a function owns its own scope: parameters and locals live in a fresh
+# frame per call, so recursion works and names never clash.
+
+create a function called greet with a parameter called name as a string:
+    write out the string "hello, " and the variable name and the char '!'
+stop the function.
+
+create a function called scale with a parameter called amount as an integer and a parameter called factor as an integer:
+    create a variable called result as an integer with a value of amount
+    multiply the variable factor by the variable result
+    return the value of result
+stop the function.
+
+create a function called factorial with a parameter called n as an integer:
+    when the variable n is less than or equal to 1 return the value of 1
+    create a variable called one as an integer with a value of 1
+    create a variable called smaller as an integer with a value of n
+    subtract the variable one from the variable smaller
+    create a variable called rest as an integer with a value of call the function called factorial with the value of smaller
+    create a variable called result as an integer with a value of n
+    multiply the variable rest by the variable result
+    return the value of result
+stop the function.
+
+create a variable called doubled as an integer with a value of call the function called scale with the value of 21 and the value of 2
+write out the string "doubled: " and the variable doubled
+
+create a variable called answer as an integer with a value of call the function called factorial with the value of 6
+write out the string "6! = " and the variable answer
+
+call the function called greet with the value of "Ada"
+call the function called greet with the value of doubled

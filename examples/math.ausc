@@ -1,0 +1,28 @@
+# the pi constant is a double, so store it before printing
+create a variable called p as a double with a value of pi
+write out the string "pi = " and the variable p
+
+# built-in math functions take radians and always yield a double
+create a variable called s as a double with a value of call the function called sin with the value of pi
+write out the string "sin(pi) = " and the variable s
+
+create a variable called c as a double with a value of call the function called cos with the value of pi
+write out the string "cos(pi) = " and the variable c
+
+create a variable called r as a double with a value of call the function called sqrt with the value of 2
+write out the string "sqrt(2) = " and the variable r
+
+# modulo works on integers and doubles, or on array elements
+create a variable called n as an integer with a value of 17
+create a variable called m as an integer with a value of 5
+modulo the variable m by the variable n
+write out the string "17 % 5 = " and the variable n
+
+create a variable called scores as an array of integer with a size of 2
+assign the variable called scores at the index 0 the value of 100
+assign the variable called scores at the index 1 the value of 7
+modulo the variable scores at the index 1 by the variable scores at the index 0
+write out the string "100 % 7 = " and the variable scores at the index 0
+
+# \e and \xHH escape codes make ANSI sequences like "clear the screen" possible
+write out the string "\e[2J"

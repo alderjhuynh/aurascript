@@ -1,0 +1,9 @@
+create a variable called x as an integer.
+assign the variable called x the value of 1.
+create a variable called y as an integer with a value of 0.
+
+repeat while the variable y is less than 10:
+	add the variable x to the variable y.
+	write out the variable y
+	when the variable y is equal to 5 write out the string "hello"
+stop repeating.

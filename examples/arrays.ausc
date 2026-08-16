@@ -1,0 +1,27 @@
+# arrays: declare with a size, then read and write elements by index
+create a variable called scores as an array of integer with a size of 5
+create a variable called names as an array of string with a size of 2
+create a variable called i as an integer with a value of 0
+create a variable called one as an integer with a value of 1
+
+assign the variable called scores at the index 0 the value of 10
+assign the variable called scores at the index 1 the value of 20
+assign the variable called scores at the index 2 the value of 30
+assign the variable called names at the index 0 the value of "alice"
+assign the variable called names at the index 1 the value of "bob"
+
+write out the variable scores at the index 0
+write out the variable names at the index 0
+write out the char '[' and the variable names at the index 1 and the char ']'
+
+# an element can be added to, subtracted from, compared, and looped over
+add the variable scores at the index 0 to the variable scores at the index 1
+write out the variable scores at the index 1
+when the variable scores at the index 1 is equal to 30 write out the string "sum works"
+
+create a variable called total as an integer with a value of 0
+repeat while the variable i is less than 3:
+	add the variable scores at the index i to the variable total
+	add the variable one to the variable i
+stop repeating.
+write out the string "total: " and the variable total

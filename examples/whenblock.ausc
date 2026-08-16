@@ -1,0 +1,18 @@
+# when-block: the block form of when...otherwise, closed by stop when.
+create a variable called x as an integer with a value of 0
+create a variable called one as an integer with a value of 1
+
+repeat while the variable x is less than 6:
+	add the variable one to the variable x
+	when the variable x is equal to 2:
+		write out the string "two"
+		write out the string "even"
+	otherwise:
+		write out the variable x
+		when the variable x is greater than 4 write out the string "big"
+	stop when.
+stop repeating.
+
+when the variable x is equal to 6:
+	write out the string "finished"
+stop when.
